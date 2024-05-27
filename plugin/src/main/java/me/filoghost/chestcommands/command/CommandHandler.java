@@ -154,9 +154,9 @@ public class CommandHandler extends AnnotatedSubCommandManager {
         }
 
         if (sender.getName().equalsIgnoreCase(target.getName())) {
-            sender.sendMessage(ChatColor.GREEN + "Opening the menu " + menuName + ".");
+            sender.sendMessage(ChatColor.GREEN + "메뉴가 열렸습니다"".");
         } else {
-            sender.sendMessage(ChatColor.GREEN + "Opening the menu " + menuName + " to " + target.getName() + ".");
+            sender.sendMessage(ChatColor.GREEN + "메뉴가" + target.getName() + "에게 열렸습니다.");
         }
 
         menu.open(target);
